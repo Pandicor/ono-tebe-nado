@@ -14,7 +14,7 @@
       <nav class="menu">
         <ul class="menu-list">
           <li class="menu-list-item-no-link"> 
-            <a class="menu-list-no-link"> главная </a>
+            <a class="menu-list-link"> главная </a>
           </li>
           <li class="menu-list-item">
             <a href="#" class="menu-list-link"> посмотреть лоты </a>
@@ -32,22 +32,22 @@
           />
         </a>
         <adress class="adress">
-          <a class="adress-link" href="+99995555555"> +9 999 555 5555 </a><br />
+          <a class="adress-link" href="tel:+99995555555"> +9 999 555 5555 </a><br />
           <a class="adress-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
           <p class="adress-text">наб. Принсенграхт 263-265,<br />Амстердам</p>
         </adress>
     </header>
     <main>
       <section class="cover">
-        <div class="cover-overlay"></div>
+        <div class="overlay"></div>
         <h1 class="cover-title">
-          <span class="cover-title-top">
+          <span class="cover-title-left">
             O<span class="cover-title-letter-space">НО</span>
           </span>
           <span class="cover-title-middle">
             ТЕ<span class="cover-title-letter-space">БЕ</span>
           </span>
-          <span class="cover-title-end">
+          <span class="cover-title-right">
             Н<span class="cover-title-no-space">АДО</span>
           </span>
         </h1>
@@ -55,7 +55,7 @@
           <p class="cover-bottom-text">
             Аукцион вещей, в которые никто не верил
           </p>
-          <button class="cover-button">Сделать ставку</button>
+          <button type="submit" class="cover-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -64,9 +64,9 @@
           <li class="lots-card-list-item">
             <a class="card-link" href="#">
               <article class="card card-film">
-                <div class="card-overlay"></div>
+                <div class="overlay"></div>
                 <h3 class="card-title">
-                Фильм режиссёра, который бросил школы
+                Фильм режиссёра, который бросил киношколу
                 </h3>
                 <p class="card-text">
                 Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
@@ -80,7 +80,7 @@
           <li class="lots-card-list-item">
             <a class="card-link" href="#">
               <article class="card card-book">
-                <div class="card-overlay"></div>
+                <div class="overlay"></div>
                 <h3 class="card-title">
                 Книга, где описан один скучный день из жизни рекламного агента
                 </h3>
@@ -99,7 +99,7 @@
           <li class="lots-card-list-item">
             <a class="card-link" href="#">
               <article class="card card-painting">
-                <div class="card-overlay"></div>
+                <div class="overlay"></div>
                 <h3 class="card-title">
                 Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -117,9 +117,9 @@
         <a class="lots-link" href="#0">посмотреть больше</a>
       </section>
       <section class="about">
-        <a class="logo-white"> 
+        <a class="logo-about"> 
           <img 
-            class="logo-white-image" 
+            class="logo-about-image" 
             src="./images/logo-white.svg"
             alt="Белый логотип" 
           />
@@ -148,14 +148,14 @@
     </main>
     <footer class="footer">
       <adress class="adress">
-        <a class="adress-link" href="+99995555555"> +9 999 555 5555 </a><br />
+        <a class="adress-link" href="tel:+99995555555"> +9 999 555 5555 </a><br />
         <a class="adress-link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
         <p class="adress-text">наб. Принсенграхт 263-265,<br />Амстердам</p>
       </adress>
       <nav class="footer-menu">
         <ul class="footer-menu-list">
           <li class="footer-menu-list-item-no-link"> 
-            <a class="footer-menu-list-no-link"> главная </a>
+            <a class="footer-menu-list-link"> главная </a>
           </li>
           <li class="footer-menu-list-item">
             <a href="#" class="footer-menu-list-link"> посмотреть лоты </a>
@@ -167,27 +167,30 @@
       </nav>
       <ul class="footer-contact-images-list">
         <li class="footer-contact-images-item">
-          <a href="#"></a>
-          <img 
-            src="./images/yt.svg"
-            alt="Youtube logo"
-          />
+          <a href="#">
+            <img 
+              src="./images/yt.svg"
+              alt="Youtube logo"
+            />
+          </a>
         </li>
         <li class="footer-contact-images-item">
-          <a href="#"></a>
-          <img
-            class="vk"
-            src="./images/vk.svg"
-            alt="VK logo"
-          />
+          <a href="#">
+            <img
+              class="vk"
+              src="./images/vk.svg"
+              alt="VK logo"
+            />
+          </a>
         </li>
         <li class="footer-contact-images-item">
-          <a href="#"></a>
-          <img 
-            class="pinterest"
-            src="./images/pinterest.svg"
-            alt="Pinterest logo"
-          />
+          <a href="#">
+            <img 
+              class="pinterest"
+              src="./images/pinterest.svg"
+              alt="Pinterest logo"
+            />
+          </a>
         </li>
       </ul>
     </footer>
